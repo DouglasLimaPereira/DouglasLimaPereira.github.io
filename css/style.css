@@ -953,25 +953,26 @@ body.section-show .transition-mask:before{
 	.timeline > li:before,
 	.timeline:before{
 		display:none;
+		justify-content: center;
 	}
 	.timeline > li > .timeline-desc{
-		opacity:.5;
-		text-align:right;
-		float:left;
+		opacity:.7;
+		text-align:center;
+		float:center;
 	}
 	.timeline > li.inverse > .timeline-desc{
-		text-align:left;
-		float:right;
+		text-align:center;
+		float:center;
 	}
 	.timeline > li > div{
 		width:85%;
-		float:none;
+		/* float:center; */
 		display:block;
 		margin-left:auto;
 		margin-right:auto;
 	}
 	.timeline > li > .timeline-content{
-		text-align:right;
+		text-align:center;
 	}
 }
 .hobbies-block{
